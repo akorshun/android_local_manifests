@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <project name="aries-dev/android_device_xiaomi_aries" path="device/xiaomi/aries" revision="cm-12.1" />
+    <project name="aries-dev/android_kernel_xiaomi_msm8960" path="kernel/xiaomi/msm8960" revision="cm-12.1" />
+    <project name="aries-dev/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="cm-12.1" />
+
+    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />
+
+    <project path="prebuilts/gcc/linux-x86/arm/arm-cortex-a9-linux-gnueabihf-4.9-linaro" name="aries-dev/arm-cortex_a9-linux-gnueabihf-linaro-4.9" revision="cm-12.1" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="aries-dev/arm-linux-androideabi-4.9-linaro" revision="cm-12.1" clone-depth="1" />
+
+</manifest>
+
