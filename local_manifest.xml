@@ -7,7 +7,7 @@
 
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />
 
-    <project path="prebuilts/gcc/linux-x86/arm/arm-cortex-a9-linux-gnueabihf-4.9-linaro" name="aries-dev/arm-cortex_a9-linux-gnueabihf-linaro-4.9" revision="cm-12.1" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-cortex-a15-linux-gnueabihf-4.9-linaro" name="aries-dev/arm-cortex_a15-linux-gnueabihf-linaro-4.9" revision="cm-12.1" clone-depth="1" />
     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="aries-dev/arm-linux-androideabi-4.9-linaro" revision="cm-12.1" clone-depth="1" />
 
 </manifest>
