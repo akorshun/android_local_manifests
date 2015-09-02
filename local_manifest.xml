@@ -2,7 +2,7 @@
 <manifest>
 
     <project name="mi2-dev/android_device_xiaomi_aries" path="device/xiaomi/aries" revision="cm-12.1" />
-    <project name="mi2-dev/android_kernel_xiaomi_msm8960" path="kernel/xiaomi/msm8960" revision="cm-12.1" />
+    <project name="mi2-dev/android_kernel_xiaomi_aries" path="kernel/xiaomi/msm8960" revision="cm-12.1" />
     <project name="mi2-dev/android_vendor_xiaomi" path="vendor/xiaomi" revision="cm-12.1" />
 
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />
