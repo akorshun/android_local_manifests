@@ -7,7 +7,7 @@
 
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />
 
-    <project path="prebuilts/gcc/linux-x86/arm/arm-cortex-a15-linux-4.9-linaro" name="mi2-dev/arm-cortex_a15-linux-linaro-4.9" revision="cm-12.1" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-cortex_a15-linux-4.9-linaro" name="mi2-dev/arm-cortex_a15-linux-linaro-4.9" revision="cm-12.1" clone-depth="1" />
     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="mi2-dev/arm-linux-androideabi-4.9" revision="cm-12.1" clone-depth="1" />
 
 </manifest>
