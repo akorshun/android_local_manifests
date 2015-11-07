@@ -22,15 +22,12 @@
     <remove-project name="platform/hardware/intel/audio_media" />
     <remove-project name="platform/hardware/intel/bootstub" />
     <remove-project name="platform/hardware/intel/common/bd_prov" />
-    <remove-project name="platform/hardware/intel/common/libmix" />
     <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
     <remove-project name="platform/hardware/intel/common/libva" />
     <remove-project name="platform/hardware/intel/common/libwsbm" />
     <remove-project name="platform/hardware/intel/common/omx-components" />
     <remove-project name="platform/hardware/intel/common/utils" />
     <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
-    <remove-project name="platform/hardware/intel/img/hwcomposer" />
-    <remove-project name="platform/hardware/intel/img/libdrm" />
     <remove-project name="platform/hardware/intel/img/psb_headers" />
     <remove-project name="platform/hardware/intel/img/psb_video" />
     <remove-project name="CyanogenMod/android_hardware_invensense" />
