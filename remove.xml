@@ -47,7 +47,6 @@
     <remove-project name="CyanogenMod/android_packages_apps_BluetoothExt" />
     <remove-project name="CyanogenMod/android_packages_apps_Calendar" />
     <remove-project name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
-    <remove-project name="CyanogenMod/android_packages_apps_CMAccount" />
     <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
     <remove-project name="CyanogenMod/android_packages_apps_CMFileManager" />
     <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
