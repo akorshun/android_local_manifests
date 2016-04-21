@@ -42,45 +42,6 @@
     <remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
     <remove-project name="CyanogenMod/android_hardware_ti_wlan" />
     <remove-project name="CyanogenMod/android_hardware_ti_wpan" />
-    <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
-    <remove-project name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-    <remove-project name="CyanogenMod/android_packages_apps_BluetoothExt" />
-    <remove-project name="CyanogenMod/android_packages_apps_Calendar" />
-    <remove-project name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
-    <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
-    <remove-project name="CyanogenMod/android_packages_apps_CMFileManager" />
-    <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-    <remove-project name="CyanogenMod/android_packages_apps_CMWallpapers" />
-    <remove-project name="CyanogenMod/android_packages_apps_Exchange" />
-    <remove-project name="CyanogenMod/android_packages_apps_HTMLViewer" />
-    <remove-project name="CyanogenMod/android_packages_apps_Nfc" />
-    <remove-project name="platform/packages/apps/OneTimeInitializer" />
-    <remove-project name="CyanogenMod/android_packages_apps_Profiles" />
-    <remove-project name="CyanogenMod/android_packages_apps_SetupWizard" />
-    <remove-project name="CyanogenMod/android_packages_apps_SmartCardService" />
-    <remove-project name="CyanogenMod/android_packages_apps_SoundRecorder" />
-    <remove-project name="CyanogenMod/android_packages_apps_SpeechRecorder" />
-    <remove-project name="CyanogenMod/android_packages_apps_Stk" />
-    <remove-project name="CyanogenMod/android_packages_apps_Tag" />
-    <remove-project name="CyanogenMod/android_packages_apps_Terminal" />
-    <remove-project name="CyanogenMod/android_packages_apps_TvSettings" />
-    <remove-project name="CyanogenMod/android_packages_experimental" />
-    <remove-project name="CyanogenMod/android_packages_inputmethods_LatinIME" />
-    <remove-project name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
-    <remove-project name="CyanogenMod/android_packages_providers_CalendarProvider" />
-    <remove-project name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
-    <remove-project name="CyanogenMod/android_packages_providers_TvProvider" />
-    <remove-project name="CyanogenMod/android_packages_screensavers_Basic" />
-    <remove-project name="CyanogenMod/android_packages_screensavers_PhotoTable" />
-    <remove-project name="CyanogenMod/android_packages_screensavers_WebView" />
-    <remove-project name="CyanogenMod/android_packages_wallpapers_Basic" />
-    <remove-project name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
-    <remove-project name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
-    <remove-project name="CyanogenMod/android_packages_wallpapers_MagicSmoke" />
-    <remove-project name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
-    <remove-project name="CyanogenMod/android_packages_wallpapers_NoiseField" />
-    <remove-project name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
-    <remove-project name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
     <remove-project name="platform/prebuilts/android-emulator" />
     <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
     <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
@@ -111,4 +72,3 @@
     <remove-project name="CyanogenMod/android_external_vim" />
 
 </manifest>
-
