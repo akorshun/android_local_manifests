@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <project name="aries-dev/android_device_xiaomi_aries" path="device/xiaomi/aries" revision="cm-12.1" />
+    <project name="akorshun/android_device_xiaomi_aries" path="device/xiaomi/aries" revision="cm-12.1" />
     <project name="aries-dev/android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" revision="cm-12.1" />
     <project name="aries-dev/android_vendor_xiaomi" path="vendor/xiaomi" revision="cm-12.1" />
 
@@ -10,5 +10,29 @@
     <project name="aries-dev/arm-cortex_a15-linux-linaro-4.9" path="prebuilts/gcc/linux-x86/arm/arm-cortex_a15-linux-linaro-4.9" revision="cm-12.1" clone-depth="1" />
     <project name="aries-dev/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="cm-12.1" clone-depth="1" />
 
-</manifest>
+  <!-- build -->
+  <remove-project name="CyanogenMod/android_build" />
+  <project groups="pdk" name="akorshun/android_build" path="build" remote="github" >
+    <copyfile dest="Makefile" src="core/root.mk"/>
+  </project>
+  <!-- end of build -->
+  
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <project path="frameworks/av" name="akorshun/android_frameworks_av" groups="pdk" />
 
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/base" name="akorshun/android_frameworks_base" />
+
+  <remove-project name="CyanogenMod/android_frameworks_webview" />
+  <project path="frameworks/webview" name="akorshun/android_frameworks_webview" />
+
+  <remove-project name="CyanogenMod/android_packages_apps_Eleven" />
+  <project path="packages/apps/Eleven" name="akorshun/android_packages_apps_Eleven" />
+
+  <remove-project name="CyanogenMod/android_packages_apps_InCallUI" />
+  <project path="packages/apps/InCallUI" name="akorshun/android_packages_apps_InCallUI" />
+  
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="akorshun/android_packages_apps_Settings" />
+
+</manifest>
