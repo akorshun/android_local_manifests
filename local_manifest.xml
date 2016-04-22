@@ -3,7 +3,7 @@
 
     <project name="akorshun/android_device_xiaomi_aries" path="device/xiaomi/aries" revision="cm-12.1" />
     <project name="aries-dev/android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" revision="cm-12.1" />
-    <project name="aries-dev/android_vendor_xiaomi" path="vendor/xiaomi" revision="cm-12.1" />
+    <project name="akorshun/android_vendor_xiaomi" path="vendor/xiaomi" revision="cm-12.1" />
 
     <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" revision="cm-12.1" />
 
