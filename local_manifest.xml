@@ -9,7 +9,14 @@
 
     <project name="aries-dev/arm-cortex_a15-linux-linaro-4.9" path="prebuilts/gcc/linux-x86/arm/arm-cortex_a15-linux-linaro-4.9" revision="cm-12.1" clone-depth="1" />
     <project name="aries-dev/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="cm-12.1" clone-depth="1" />
+
     
+  <!-- build -->
+  <remove-project name="CyanogenMod/android_build" />
+  <project groups="pdk" name="akorshun/android_build" path="build" remote="github" >
+    <copyfile dest="Makefile" src="core/root.mk"/>
+  </project>
+  <!-- end of build -->
   
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <project path="frameworks/av" name="akorshun/android_frameworks_av" groups="pdk" />
