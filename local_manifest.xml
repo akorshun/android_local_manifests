@@ -22,7 +22,7 @@
   <project path="frameworks/base" name="akorshun/android_frameworks_base" />
 
   <remove-project name="CyanogenMod/android_frameworks_webview" />
-  <project path="frameworks/webview" name="akorshun/android_frameworks_webview" />
+  <project path="frameworks/webview" name="temasek/android_frameworks_webview" />
 
   <remove-project name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Eleven" name="akorshun/android_packages_apps_Eleven" />
